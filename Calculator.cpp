@@ -30,6 +30,11 @@ double modulus(double a, double b) {
     return a % b;
 }
 
+// Function to calculate exponentiation (a^b) by Abhishek kolhe
+double exponentiation(double a, double b) {
+    return pow(a, b);
+}
+
 int main() {
     double num1, num2;
 
