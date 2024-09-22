@@ -29,7 +29,15 @@ double divide(double a, double b) {
 double modulus(double a, double b) {
     return a % b;
 }
-
+// Function to find square root of a number by Raunit Pratik
+double square_root(double a) {
+    if (a >= 0)
+        return sqrt(a);
+    else {
+        cout << "Error: Square root of a negative number!" << endl;
+        return NAN;
+    }
+}
 // Function to calculate exponentiation (a^b) by Abhishek kolhe
 double exponentiation(double a, double b) {
     return pow(a, b);
