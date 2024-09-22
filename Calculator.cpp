@@ -48,6 +48,11 @@ double maximum(double a, double b) {
     return max(a, b);
 }
 
+// Function to find the minimum of two numbers By Rounak Agrawal
+double minimum(double a, double b) {
+    return min(a, b);
+}
+
 int main() {
     double num1, num2;
 
