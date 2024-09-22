@@ -5,6 +5,8 @@ using namespace std;
 double add(double a, double b) {
     return a + b;
 }
+double modulus(double a, double b){
+return a%b ;
 
 int main() {
     double num1, num2;
@@ -16,6 +18,8 @@ int main() {
     cin >> num2;
 
     cout << "Result: " << add(num1, num2) << endl;
+    cout << "Result: " << modulus(num1, num2) << endl;
+    
 
     return 0;
 }
