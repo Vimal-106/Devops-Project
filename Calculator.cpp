@@ -43,6 +43,11 @@ double exponentiation(double a, double b) {
     return pow(a, b);
 }
 
+// Function to find the maximum of two numbers By Saket Ranjan
+double maximum(double a, double b) {
+    return max(a, b);
+}
+
 int main() {
     double num1, num2;
 
