@@ -25,11 +25,12 @@ double divide(double a, double b) {
         return NAN;
     }
 }
+// Function to find the modulus of two numbers by Harsh Raj
 
 double modulus(double a, double b) {
     return a % b;
 }
-// Function to find square root of a number by Raunit Pratik
+// Function to find the square root of a number by Raunit Pratik
 double square_root(double a) {
     if (a >= 0)
         return sqrt(a);
