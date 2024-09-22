@@ -16,9 +16,9 @@ double divide(double a, double b) {
     }
 }
 
-
-double modulus(double a, double b){
-return a%b ;
+double modulus(double a, double b) {
+    return a % b;
+}
 
 int main() {
     double num1, num2;
