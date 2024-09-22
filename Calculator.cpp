@@ -11,6 +11,11 @@ double subtract(double a, double b) {
     return a - b;
 }
 
+// Function to multiply two numbers by Abhishek Kumar
+double multiply(double a, double b) {
+    return a * b;
+}
+
 // Function to divide two numbers by Utkarsh Singh
 double divide(double a, double b) {
     if (b != 0)
